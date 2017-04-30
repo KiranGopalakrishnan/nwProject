@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:textAlignment="left"
         android:text="For friends using an old version they can tap \nsend o join"
         android:textColor="#FFF"
         android:layout_marginTop="100dp"
