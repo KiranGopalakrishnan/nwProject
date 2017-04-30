@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2f49d2"
+    tools:context="com.example.kiran.myapplication.MainActivity">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="CREATE GROUP"
+        android:background="@drawable/round"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="JOIN GROUP"
+        android:background="@drawable/round"
+        android:textColor="#FFF"
+        android:layout_marginTop="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="For friends using an old version they can tap \nsend o join"
+        android:textColor="#FFF"
+        android:layout_marginTop="100dp"
+         />
+
+</LinearLayout>

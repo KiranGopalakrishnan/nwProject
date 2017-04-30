@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.kiran.myapplication.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.2">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Send ShareIt to android devices without \nany charges"
+        android:textAlignment="viewStart"
+        android:textColor="#000" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Bluetooth"
+        android:id="@+id/btn"
+        android:background="@drawable/roundb"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Hotspot"
+        android:background="@drawable/roundg"
+        android:textColor="#FFF"
+        android:layout_marginTop="25dp"
+        />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/cutmypic"
+            android:layout_height="300dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:padding="10dp"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            android:text="More" />
+    </LinearLayout>
+
+</LinearLayout>
